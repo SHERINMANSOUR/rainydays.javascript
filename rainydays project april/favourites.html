@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rainydays | Pushing the comfort zone - My favourites</title>
+    <meta name="description" content="jackets for your next adventure - Your favourites" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link href="css/favourites.css" rel="stylesheet" />
+    </head>
+  <body>
+    <header>
+      <nav>
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="men.html">MEN</a></li>
+          <li><a href="women.html">WOMEN</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <a href="index.html"
+          ><img src="images/RainyDays_Logo.png" alt="logo" id="logo"
+        /></a>
+
+        <div class="icons">
+          <input type="text" class="searchTerm" placeholder="Search.." />
+          <button type="submit" class="searchButton">
+            <i class="fas fa-search"></i>
+          </button>
+
+          <a href="favourites.html">
+            <i class="fas fa-heart" title="favorites" id="faves"></i>
+          </a>
+          <a href="checkout.html"
+            ><i class="fas fa-shopping-cart" title="cart" id="cart"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>My favourites</h1>
+      <i class="fa-solid fa-heart"></i>
+
+      <p>You have no saved items</p>
+    </main>
+    <footer>
+      <div class="footer_list">
+        <h4>About</h4>
+        <p><a href="about.html">About us</a></p>
+        <p><a href="contact.html">Contact us</a></p>
+      </div>
+      <div class="footer_list">
+        <h4>Socials</h4>
+        <p><i class="fab fa-instagram" title="instagram"></i> Instagram</p>
+        <p><i class="fab fa-facebook-square" title="facebook"></i> Facebook</p>
+      </div>
+      <div class="footer_list">
+        <form action="form-success.php" method="GET">
+          <div class="container-footer">
+            <h4>Newsletter</h4>
+            <p>Get our news and updates</p>
+
+            <input
+              type="text"
+              placeholder="Enter your email here*"
+              name="mail"
+              required
+            />
+
+            <input type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+font-family: 'Roboto', sans-serif;
+
+}
+.parent{
+    background-color: #dddada;
+}
+.container10{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+   
+}
+@media(min-width) : 768px {
+   .container10{width: 750px;} 
+}
+@media(min-width) : 992px {
+    .container10{width: 970px;} 
+ }
+ @media(min-width) : 1200px {
+    .container10{width: 1170px;} 
+ }
+.body{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.search{
+    display: flex;
+    padding-left: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #83a6c1;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+    
+    }
+.menu{margin-right: 20px;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration:none ;
+    color:black;
+    font-family: 'Franklin Gothic Medium' semibold;
+    font-size: 20px;
+
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ECECEC;
+    line-height: 24px;
+}
+.title {	
+	width:50%;
+	float:left;
+    margin-top: 100px;
+    padding-left: 25px;
+}
+.btn{
+    display: inline-block;
+    background-color: #dddada;
+    color: # black;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s ;
+}
+.btn:hover{
+background: #83a6c1;
+border: solid;
+}
+.btn:active{
+    background-color:white;
+}
+.img-class {
+	width: 25px;%;
+}
+.main .img-class img{
+    position: absolute;
+    width: 400px;
+	top:150px; 
+    bottom: 300px;  
+}
+
+
+
+
+
+
+.new-collection{
+    color: #000;
+font-family: Frank Ruhl Libre;
+font-size: 32px;
+font-style: bold;
+font-weight: 500;
+line-height: 56.5px; /* 83.088% */
+letter-spacing: 10.54px;
+position: center;
+margin-left: 400px;
+
+
+}
+.container2{ width: 200px;
+    height: 350px;
+    padding: 375;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.thumbnail{
+    width: 300px;
+    height: 350px;
+    padding: 375;
+    display: flex;
+    cursor: pointer;
+
+ 
+}
+.thumbnail2{
+    width: 300px;
+    height: 350px;
+    padding: 375;
+    display: flex;
+    cursor: pointer;
+
+     
+}
+.jacket-name1,.jacket-name2,.jacket-name3{
+    display: inline-block;
+    cursor: pointer;
+}
+.jacket-name1{
+    margin-left: 75px;
+}
+.jacket-name2{
+    margin-left: 150px;
+}
+.jacket-name3{
+    margin-left: 50px;
+}
+
+.best-jacket{
+    width: 300px;
+    height: 420;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.best-jacket:hover{
+    border: solid;
+    color: #000;
+}
+.best-jacket-text{
+    color: #000;
+font-family: Frank Ruhl Libre;
+font-size: 60px;
+font-style: bold;
+font-weight: 100;
+line-height: 56.5px; /* 83.088% */
+letter-spacing: 10.54px;
+margin-right: 50px;
+margin-top: 300px;
+margin-bottom: 100px;
+float: right;
+vertical-align: top;
+
+}
+
+.table, th, td{
+    border: 1px solid;
+    font-size: 24px;
+    font-family: lato;
+    color: white;
+    background-color: rgba(129, 128, 128, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 400px;}
+    
+
+.red-jacket{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    float: right;
+    padding-right: 45px;
+    margin-top: 50px;
+    border: solid;
+margin-left: 20px;}
+
+    
+.jacket-details{
+    color:black;
+    font-size: 38px;
+    font-family: 'Frank Ruhl Libre';
+    margin-top: 100px;
+}
+.more-details{
+    font-family: lato;
+    line-height: 56,5;
+    word-spacing: 10px;
+    letter-spacing: 15,5;
+    color:black;
+    margin-left: 22px;
+}
+
+.btn-see-more
+{display: inline-block;
+    background-color: #dddada;
+    color: # black;
+    padding: 8px 30px;
+    margin: 30px 0;
+   :horizontal padding: 22px;
+    transition: background 0.5s;
+    color:svart;
+    font-style: calc();
+    padding-top: 10px;
+    padding-left: 20px;
+    padding: right 20px;
+    margin-top: 20px;margin: bottom 100px;;
+    
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 41px; /* 205% */
+letter-spacing: 0.5px;
+margin-left: 60px;
+
+} h3-reviews{display: block;
+        margin-left: 300 px;
+        color: #000;
+        font-family: Frank Ruhl Libre;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 56.5px;
+        letter-spacing: 6.2px;
+        position: center;
+    }
+   
+      .grid-reviews2{
+        display: grid; 50 px 50px;
+         border: 4px solid #444;
+         overflow:hidden ; 
+         Float: left;
+         width: 250px;
+         margin:15px 27px;
+         text-align: center;
+         margin: top 100px;
+         background-color: #D9D9D9; 
+      }
+      .review2{
+        border-radius: 59px;
+background: lightgray 50% / cover no-repeat;
+      }
+    
+     
+     .reviewsgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+.headphoto{
+    min-width: 100px;
+    max-width:  1440px;
+    height: 390px;
+}
+
+
+
+
+     ---------about us page ----------------
+
+
+     .flex-container {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      /* Responsive layout - makes a one column layout instead of a two-column layout */
+      @media (max-width: 800px) {
+        .flex-container {
+          flex-direction: column;
+        }
+      }
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  object-position: center;
+  
+  
+}
+
+
+
