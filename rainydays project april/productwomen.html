@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rainydays</title>
+    <meta name="description" content="jackets for pushing the comfort zone" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link href="css/product.css" rel="stylesheet" />
+    <!-- Hotjar Tracking Code for sherin Mansour -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 5004199, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="men.html" class="active">MEN</a></li>
+          <li><a href="women.html">WOMEN</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <a href="index.html"
+          ><img src="image/RainyDays_Logo.png" alt="logo" id="logo"
+        /></a>
+
+        <div class="icons">
+          <input type="text" class="searchTerm" placeholder="Search.." />
+          <button type="submit" class="searchButton">
+            <i class="fas fa-search"></i>
+          </button>
+          <a href="favourites.html">
+            <i class="fas fa-heart" title="favorites" id="faves"></i>
+          </a>
+          <a href="checkout.html"
+            ><i class="fas fa-shopping-cart" title="cart" id="cart"></i
+            ><span>0</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1>women jacket</h1>
+      <div class="product-section">
+        <div class="container">
+          <img src="image/winterjacketwater-proof6.jpg" alt="" />
+        </div>
+
+        <div class="dots-container">
+          <p>Color:</p>
+          <div class="dots">
+            <label class="color-container"
+              >blue
+              <input type="radio" checked="checked" name="radio" />
+              <span class="dot1"></span> </label
+            ><br />
+
+            <label class="color-container"
+              >red
+              <input type="radio" name="radio" />
+              <span class="dot2"></span> </label
+            ><br />
+
+            <label class="color-container"
+              >white
+              <input type="radio" name="radio" />
+              <span class="dot3"></span> </label
+            ><br />
+          </div>
+          <div class="size-container">
+            <label for="choose-size">Select size:</label><br />
+            <select id="choose-size" name="choose-size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+              <option value="extra large">Extra Large</option>
+            </select>
+          </div>
+
+          <input type="submit" value="Add to cart" id="addtocart-button" />
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer_list">
+        <h4>About</h4>
+        <p><a href="about.html">About us</a></p>
+        <p><a href="contact.html">Contact us</a></p>
+      </div>
+      <div class="footer_list">
+        <h4>Socials</h4>
+        <p><i class="fab fa-instagram" title="instagram"></i> Instagram</p>
+        <p><i class="fab fa-facebook-square" title="facebook"></i> Facebook</p>
+      </div>
+      <div class="footer_list">
+        <form action="form-success.php" method="GET">
+          <div class="container-footer">
+            <h4>Newsletter</h4>
+            <p>Get our news and updates</p>
+
+            <input
+              type="text"
+              placeholder="Enter your email here*"
+              name="mail"
+              required
+            />
+
+            <input type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
+    </footer>
+    <script src="js/product.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
